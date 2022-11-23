@@ -11,6 +11,18 @@ function myCalculator($num01, $oper, $num02){
         case "sub";
             $sum = $num01 - $num02;
             break;
+        case "multiply";
+            $sum = $num01 * $num02;
+            break;
+         case "division";
+            $sum = $num01 / $num02;
+            break;
+        case "exponentiation";
+            $sum = $num01 ** $num02;
+            break;
+        case "module";
+            $sum = $num01 % $num02;
+            break;
 
         default:
             $sum = "There was an error!";
