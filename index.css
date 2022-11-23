@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    background-color: aqua;
+    background-image: url(/calculator.jpg);
 }
 input , select{
     padding: 1rem ;
@@ -21,7 +21,6 @@ form{
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid black;
-    background-color: white;
 }
 button{
     padding: 0.8rem;
